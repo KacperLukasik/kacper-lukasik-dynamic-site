@@ -1,0 +1,1 @@
+<div id="footer">2015 &copy; Kacper Łukasik. Wszelkie prawa zastrzeżone.</div>

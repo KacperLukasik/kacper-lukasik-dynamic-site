@@ -1,0 +1,91 @@
+/* 
+    Created on : 2015-09-25, 18:36:55
+    Author     : Kacper Łukasik
+*/
+body
+{
+    background-image: url(../Images/siteDoc/background.png);
+}
+
+#wrapper
+{
+    width:1024px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+#logo
+{
+    margin: 50px 0px 50px 0px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 72px;
+}
+
+#sideLink,#content
+{
+    height: 200px;
+    background-color: #ff132e;
+}
+
+#sideLink
+{
+    float: left;
+    width: 216px;
+    border-right: #a70000 solid 5px;
+    height: 220px;
+}
+
+#content
+{
+    float: left;
+    width: 783px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#footer
+{
+    border-top: #a70000 solid 5px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+#sideLink a
+{
+    text-decoration: none;
+    display: block;
+    background: #ff6c20;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    border-left: #719699 solid 5px;
+    color: #ffffff;
+}
+
+#sideLink a:hover
+{
+    border-left: #71de25 solid 5px;
+    background-color: #ff7f2f;
+}
+
+#content img
+{
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#picCon,#textCon
+{
+    position: relative;
+    top: 20%;
+    float: left;
+}
+#picCon
+{
+    margin: 0px 20px;
+}

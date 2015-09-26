@@ -1,0 +1,1 @@
+<div>Przepraszamy, podana strona nie istnieje ! <a href="?page=home">Powróć na strone główną</a></div>
