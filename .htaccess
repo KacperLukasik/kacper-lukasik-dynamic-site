@@ -1,0 +1,10 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-domowa index.php?page=about
+RewriteRule error404 index.php?page=404
+RewriteRule dokumenty index.php?page=documents

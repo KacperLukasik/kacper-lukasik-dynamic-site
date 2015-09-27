@@ -6,7 +6,7 @@
     }
     else
     {
-        header("Location: index.php?page=about");
+        header("Location: strona-domowa");
         exit();
     }
 ?>
