@@ -1,18 +1,6 @@
-<?php
-    $getURL;
-    if(isset($_GET["page"]))
-    {
-        $getURL = htmlspecialchars($_GET["page"]);
-    }
-    else
-    {
-        header("Location: strona-domowa");
-        exit();
-    }
-?>
-
 <div id="content">
         <?php
+        require_once 'index.php';
         $pagePatch = 'Pages/'.$getURL.'.php';
         if(file_exists($pagePatch))
         {

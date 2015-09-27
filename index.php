@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <?php
     require_once 'Config/Config.php';
+    $getURL;
+    if(isset($_GET["page"]))
+    {
+        $getURL = htmlspecialchars($_GET["page"]);
+    }
+    else
+    {
+        header("Location: strona-domowa");
+        exit();
+    }
 ?>
 <html>
     <head>
